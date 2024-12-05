@@ -1,0 +1,20 @@
+body {
+    font-family: Helvetica;
+}
+
+h3 {
+    font-variant: small-caps;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.botchi-pic {
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+}
