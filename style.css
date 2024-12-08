@@ -1,23 +1,22 @@
 nav {
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    margin: 1px;;
+    padding: 1px;
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 70px;
 }
 
 header {
     background-color: black;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 
 li {
@@ -39,26 +38,58 @@ a:hover{
 
 body {
     font-family: Helvetica;
-    background: #f1f090;
+    background: #535349;
+    background-image: url(breathtaking-view-zugspitze-lake-surrounded-with-forests-eibsee.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #eee;
 }
 
 h3 {
     font-variant: small-caps;
+    color: #eee;
 }
 
 h2 {
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+    color: #eee;
+}
+
+.left {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    color: #eee;
 }
 
 .container {
     display: grid;
     place-items: center;
     height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #eee;
 }
 
 .Cdetails {
-    display: grid;
-    place-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     height: 200px;
 }
 
@@ -69,17 +100,17 @@ a button {
 .button-containers button {
     border: none;
     background: none;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     cursor: pointer;
 }
 
-.button-containers:hover { 
-    color: #555;
+button:hover { 
+    color: white;
 }
 
 .button-containers button i {
-    font-size: 24px;
+    font-size: 50px;
     color: #333;
     text-decoration: none;
     cursor: pointer;
@@ -90,8 +121,22 @@ a button {
     align-items: center;
     justify-content: center;
     margin: 0 8px;
-    justify-content: center;
 }
+
+.picture {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    border-radius: 24px;
+}
+
+
+
+
 
 
 
