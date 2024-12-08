@@ -1,5 +1,45 @@
+nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: white;
+}
+
 body {
     font-family: Helvetica;
+    background: #f1f090;
 }
 
 h3 {
@@ -7,7 +47,7 @@ h3 {
 }
 
 h2 {
-    margin-bottom: 1rem;;
+    margin-bottom: 0rem;
 }
 
 .container {
@@ -16,7 +56,17 @@ h2 {
     height: 200px;
 }
 
-.icon-button {
+.Cdetails {
+    display: grid;
+    place-items: center;
+    height: 200px;
+}
+
+a button {
+    text-decoration: none;
+}
+
+.button-containers button {
     border: none;
     background: none;
     padding: 0;
@@ -24,9 +74,23 @@ h2 {
     cursor: pointer;
 }
 
-.icon-button i {
+.button-containers:hover { 
+    color: #555;
+}
+
+.button-containers button i {
     font-size: 24px;
     color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-containers button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    justify-content: center;
 }
 
 
