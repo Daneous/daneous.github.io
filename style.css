@@ -15,7 +15,7 @@ ul {
 }
 
 header {
-    background-color: black;
+    background-color: none;
     padding: 0px 0;
 }
 
@@ -25,59 +25,100 @@ li {
 
 a {
     text-decoration: none;
-    color: orange;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
     font-variant: small-caps;
     transition: color 0.3s;
+    letter-spacing: 1.5px;
 }
 
 a:hover{
-    color: white;
+    color: orange;
 }
 
 body {
     font-family: Helvetica;
     background: #535349;
-    background-image: url(breathtaking-view-zugspitze-lake-surrounded-with-forests-eibsee.jpg);
+    background-image: url(lake-with-shore-sunset.jpg);
+    background-size: cover;      
     background-repeat: no-repeat;
+    background-position: center center;    
     background-attachment: fixed;
-    background-size: cover;
+    line-height: 1.6;
 }
 
 h1 {
-    color: #eee;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem; 
+    font-weight: 200; 
+    color: #ffffff;
+    background-color: none;
+    margin: 5px;
 }
 
 h3 {
     font-variant: small-caps;
     color: #eee;
+    padding: 0px;
+    margin: 0px;
 }
 
 h2 {
-    margin-bottom: 2rem;
-    color: #eee;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem; 
+    font-weight: 200; 
+    color: #ffffff;
+    background-color: none;
+    margin: 5px;
 }
 
 .container {
     display: grid;
     place-items: center;
-    height: 200px;
+    height: 50px;
     align-items: center;
     justify-content: center;
 }
 
 .text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #eee;
+    font-family:'Times New Roman' ;
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.text-about {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.text-about p{
     text-align: justify;
     align-items: center;
     justify-content: center;
     place-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     color: #eee;
+    font-family:'Times New Roman' ;
+    max-width: 600px;
+    margin: 0px auto;
+    font-size: 1.2rem;
 }
 
 .Cdetails {
+    margin-top: 50px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -124,6 +165,32 @@ button:hover {
     justify-content: center;
     place-items: center;
     border-radius: 24px;
+}
+
+.info {
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 200px;
+    padding-right: 200px; 
+    font-size: 16px;
+}
+
+.about {
+    padding-bottom: 50px;
+}
+
+.about p{
+    text-align: justify;
+    padding: 0px;
+    font-size: 1.2rem;
+    
+}
+
+.another-container {
+    place-items: center;
+    padding: 50px;
+    margin: 50px;
 }
 
 
